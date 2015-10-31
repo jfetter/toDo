@@ -8,23 +8,57 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
 
-	<link rel="stylesheet" href="style3.css"><!-- 
+	<link rel="stylesheet" href="style.css"><!-- 
 	<link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
 
 <div class="container">
 
+<div class="row">
+	<h1 class="heading">TO DO LIST</h1>
+</div>
 
-<input type="date" class="date" min="2015-10-31" max=(getDate) >
-button.btn <btn-default id="get">
-	Get
-</btn-default>
-
-
-
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<input type="text" class="description" placeholder="description">
+			<input type="date" class="date" min="2015-10-31" btn-default id="get">
+			<button class="btn add">
+			Add
+			</button>
+		</div>
+</div>
 
 </div> <!-- end of cont-->
+
+
+<div class="container newInput">
+
+<div class="row">
+	<table class="table">
+		<tr >
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<td class="description">REMOVE THIS TEXT</td>
+				</div>
+	 	</tr>	
+	
+		<tr >
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<td class="dueDate"> DATE HERE</td>
+			</div>
+		</tr >
+	
+		<tr class="lastTr">
+				<div class="col-lg-2 col-md-2 col-sm-2 checkbox"> 
+					<td class="check lastTd">
+		        <input type="checkbox" aria-label="check">
+		      		</td>
+		  	</div><!-- /.col-lg-2 -->
+		</tr>
+	</table><!--  end table -->
+</div> <!-- end row -->
+
+</div> <!-- end container -->
 
 
 
@@ -33,6 +67,6 @@ button.btn <btn-default id="get">
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-<script src="main.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
